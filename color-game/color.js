@@ -11,7 +11,7 @@ let demoCounter = document.getElementById('demo-counter');
 let showCounter = document.getElementById('show-counter');
 let stopShowCounter = document.getElementById('stop-show-counter');
 let counterInterval;
-const totalTime = 3
+const totalTime = 10
 let counter = totalTime;
 
 
@@ -27,7 +27,7 @@ const innerbox = () => {
     let color = randomColor();
     for (let i = 0; i < smBox; i++) {
         if (i === answerBoxIndex) {
-            opacity = 0.5
+            opacity = 0.9
         } else {
             opacity = 1
         }
