@@ -189,3 +189,153 @@ body {
     background-color: #e87a90;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1080px) {
+    .game-box {
+        width: 100%;
+    }
+
+    .button-box {
+        height: 30%;
+    }
+
+    .button-box button {
+        margin-bottom: 10px;
+    }
+
+    .scissors, .paper, .rock {
+        width: 100px;
+        height: 100px;
+    }
+
+    .pk-box, .enemy-box {
+        height: 40%;
+        position: relative;
+    }
+    .enemy-box{
+        height:30%;
+    }
+
+    .enemy-result, .my-result {
+        width: 100px;
+        height: 60px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .result{
+        width:20%;
+        height:20%;
+    }
+
+    .enemy-result {
+        margin: 20px 0;
+        position: absolute;
+        top: 30px;
+    }
+    .my-result{
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .list-box {
+        width: 50%;
+        height: 100%;
+        border-radius: 0;
+    }
+    .result {
+        width: 100px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .list {
+        font-size: 20px;
+    }
+    
+
+    .reset {
+        font-size: 16px;
+    }
+    .result {
+        width:100px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .enemy{
+        display: none;
+    }
+
+    .enemy-result, .my-result {
+        width: 80px;
+        height: 150px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .enemyresult, .myresult {
+        width:100%;
+        height:100%;
+    }
+    .scissors, .paper, .rock {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .scissors, .paper, .rock {
+        width: 70px;
+        height: 70px;
+    }
+
+    .my-result, .enemy-result {
+        width: 30px;
+        height: 20px;
+    }
+
+    .result {
+        width: 160px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+    .title {
+        font-size: 18px;
+        width: 150px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .list {
+        font-size: 16px;
+    }
+
+    .reset {
+        width: 60px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .result {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .enemy-result, .my-result {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+}
